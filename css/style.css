@@ -70,6 +70,31 @@
     box-shadow: 20px 20px 46px black;
 }
 
+.user{
+    display: flex;
+    padding-left: 20rem;
+}
+
+.ubtn{
+    border: none;
+    color: whitesmoke;
+    background-color: crimson;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    height: 2.5rem;
+    width: 8rem;
+    margin: 2%;
+}
+
+.ubtn:hover {
+    background-color: antiquewhite;
+    color: black;
+    box-shadow: 0 0 46px crimson;
+}
+
 /* Initial  */
 #home {
     display: flex;
@@ -158,8 +183,10 @@
 
 /* Service Section */
 #sContainer {
-    border: 2px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     /* background-color: silver; */
+    background: url('../img/background3.jpg') no-repeat center center/cover;
 }
 
 #sContainer h2 {
@@ -177,6 +204,12 @@
     display: flex;
     flex-direction: column;
     padding: 0px 20px 10px 20px;
+}
+
+.secondary {
+    text-decoration: underline;
+    color: white;
+    text-shadow: 0 0 10px black;
 }
 
 .services .box {
@@ -205,9 +238,6 @@
     align-items: center;
 }
 
-.secondary {
-    text-decoration: underline;
-}
 
 .hSecondary {
     padding: 12px;
