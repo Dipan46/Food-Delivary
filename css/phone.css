@@ -14,8 +14,8 @@
 
 /* Home section */
 #home {
-        height: 490px;
-        padding: 100px 28px;
+        height: 380px;
+        padding: 10px 28px;
 }
 
 #home::before {
