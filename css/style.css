@@ -45,7 +45,7 @@
     color: bisque;
     display: block;
     margin-top: 1px;
-    padding: 1rem 2rem;
+    padding: 15px 26px;
     border-radius: 20px;
     transition-property: all;
     transition-duration: 0.7s
@@ -87,6 +87,8 @@
     height: 2.5rem;
     width: 8rem;
     margin: 2%;
+    transition-property: all;
+    transition-duration: 0.7s;
 }
 
 .ubtn:hover {
@@ -95,12 +97,19 @@
     box-shadow: 0 0 46px crimson;
 }
 
+.ubtn:active {
+    background-color: black;
+    color: antiquewhite;
+    box-shadow: 0 0 46px white;
+    transition-duration: 0.2s;
+}
+
 /* Initial  */
 #home {
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 467px;
+    height: 430px;
     justify-content: center;
     align-items: center;
 }
@@ -124,7 +133,6 @@
     text-align: center;
     font-size: 3rem;
     text-shadow: 0 0 18px black;
-    margin-bottom: 40px;
 }
 
 #home p {
@@ -183,14 +191,10 @@
 
 /* Service Section */
 #sContainer {
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    /* border-bottom: 1px solid black; */
     /* background-color: silver; */
-    background: url('../img/background3.jpg') no-repeat center center/cover;
-}
-
-#sContainer h2 {
-    text-decoration: underline;
+    background: url('../img/background.jpg') no-repeat center center/cover;
+    padding: 1px;
 }
 
 .center {
@@ -207,7 +211,6 @@
 }
 
 .secondary {
-    text-decoration: underline;
     color: white;
     text-shadow: 0 0 10px black;
 }
@@ -249,11 +252,11 @@
 #client::before {
     content: "";
     position: absolute;
-    background: url('../img/background.jpg') no-repeat center center/cover;
+    background: url('../img/background3.jpg') no-repeat center center/cover;
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 1;
+    opacity: 0.89;
 }
 
 #client div {
@@ -265,4 +268,16 @@
 
 .clientID img {
     width: 50%;
+}
+
+/* Contact */
+#contact{
+    
+}
+
+#content::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
