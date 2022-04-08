@@ -26,6 +26,12 @@
     font-size: 13px;
 }
 
+/* Services */
+#sContainer h2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* Services section  */
 #services {
     flex-direction: column;
