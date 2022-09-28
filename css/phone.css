@@ -3,23 +3,37 @@
     flex-direction: column;
 }
 
+#logo img {
+    height: 4rem;
+}
+
 #navbar ul li a {
     font-size: 1rem;
     padding: 0px 7px;
     padding-bottom: 8px;
 }
-.user{
+
+.user {
     padding: 0px;
+}
+
+#navbar ul {
+    padding-left: 0;
+    margin-bottom: 0;
 }
 
 /* Home section */
 #home {
-        height: 380px;
-        padding: 10px 28px;
+    height: 380px;
+    padding: 10px 28px;
 }
 
 #home::before {
     height: 550px;
+}
+
+#home h1 {
+    font-size: 2.9rem;
 }
 
 #home p {
@@ -27,7 +41,7 @@
 }
 
 /* Services */
-#sContainer h2{
+#sContainer h2 {
     display: flex;
     justify-content: space-evenly;
 }
@@ -37,6 +51,14 @@
     flex-direction: column;
 }
 
-.btn{
+.services .box {
+    border: 3px dashed black;
+    display: flex;
+    flex-direction: column;
+    background-color: #ef02024d;
+    padding: 10px;
+}
+
+.btn {
     margin: auto;
 }

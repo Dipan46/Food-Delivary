@@ -9,6 +9,7 @@
     align-items: center;
     position: sticky;
     top: 0px;
+    justify-content: space-between;
 }
 
 #logo {
@@ -48,14 +49,14 @@
     padding: 15px 26px;
     border-radius: 20px;
     transition-property: all;
-    transition-duration: 0.7s
+    transition-duration: 0.7s;
 }
 
 #navbar ul li a:hover {
     /* background-color: lightcoral; */
     margin-top: 0px;
     color: lightcoral;
-    text-decoration: underline;
+    text-decoration: none;
     border-radius: 20px;
     box-shadow: 20px 20px 46px black;
 }
@@ -64,10 +65,9 @@
     /* background-color: lightcoral; */
     margin-top: 0px;
     transition-duration: 10ms;
-    color: black;
-    text-decoration: underline;
+    text-decoration: none;
     border-radius: 20px;
-    box-shadow: 20px 20px 46px black;
+    box-shadow: 20px 20px 46px transparent;
 }
 
 .user {
@@ -226,6 +226,7 @@
 .services .box p {
     display: flex;
     align-items: center;
+    font-size: 1.5rem
 }
 
 .services .box img {
